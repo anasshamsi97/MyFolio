@@ -11,12 +11,8 @@ import {
   blogSection,
   talkSection,
   achievementSection,
-<<<<<<< HEAD
-  resumeSection
-=======
   resumeSection,
   bigProjects
->>>>>>> main
 } from "../../portfolio";
 
 function Header() {
@@ -28,10 +24,7 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
-<<<<<<< HEAD
-=======
   const viewProjects = bigProjects.display;
->>>>>>> main
 
   return (
     <Headroom>
@@ -80,28 +73,11 @@ function Header() {
               <a href="#talks">Talks</a>
             </li>
           )}
-<<<<<<< HEAD
-          {viewResume && (
-            <li>
-              <a href="#resume">Resume</a>
-            </li>
-          )}
-          <li>
-            <a href="#contact">Contact Me</a>
-          </li>
-          <li>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
-              <ToggleSwitch />
-            </a>
-          </li>
-=======
           {viewProjects && (
             <li>
               <a href="#projects">My Projects</a>
             </li>
           )}
->>>>>>> main
         </ul>
       </header>
     </Headroom>

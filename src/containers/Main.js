@@ -8,10 +8,6 @@ import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
-<<<<<<< HEAD
-import Footer from "../components/footer/Footer";
-=======
->>>>>>> main
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
@@ -67,10 +63,6 @@ const Main = () => {
             <Twitter />
             <Podcast />
             <Profile />
-<<<<<<< HEAD
-            <Footer />
-=======
->>>>>>> main
             <ScrollToTopButton />
           </>
         )}
