@@ -2,6 +2,7 @@ import React, {useContext} from "react";
 import "./Footer.scss";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
+<<<<<<< HEAD
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Footer() {
@@ -22,3 +23,6 @@ export default function Footer() {
     </Fade>
   );
 }
+=======
+import StyleContext from "../../contexts/StyleContext";
+>>>>>>> main
